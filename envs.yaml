@@ -1,0 +1,12 @@
+name: py38_groupama
+channels:
+  - defaults
+dependencies:
+  - python=3.8.15
+  - pip
+  - pip:
+    # works for regular pip packages
+    - pandas
+    - wget
+    - bs4
+    - requests
