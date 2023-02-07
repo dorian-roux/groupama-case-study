@@ -11,7 +11,7 @@ import zipfile
 
 
 # - FUNCTIONS -
-def barProgress(current, total):
+def barProgress(current, total, width=80):
     progress_message = "Downloading: %d%% [%d / %d] bytes" % (current / total * 100, current, total)
     sys.stdout.write("\r" + progress_message)
     sys.stdout.flush()
@@ -48,5 +48,3 @@ if __name__ == '__main__':
         z.close()
         os.remove(stockFilename)
         print(f'\nFile Downloaded and Extracted Successfully!\n')
-    
-    
