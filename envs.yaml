@@ -8,5 +8,7 @@ dependencies:
     # works for regular pip packages
     - pandas
     - wget
-    - bs4
     - requests
+    - xlrd
+    - seaborn
+    - matplotlib

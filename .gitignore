@@ -1,3 +1,4 @@
 data/
+archive/
 *.tmp
 __pycache__

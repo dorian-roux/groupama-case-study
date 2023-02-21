@@ -23,12 +23,12 @@ def getDataBODAAC(SIREN):
     try:
         r =  requests.get(api_URL)
         if r.status_code != 200:
-            print('Request Failed -> {r.status_code}')
+            print(f'Request Failed -> {r.status_code}')
             return False
         
         rContent = json.loads(r.content)
         if rContent['nhits'] == 0: 
-            print('No information regarding the SIREN -> {SIREN}')
+            print(f'No information regarding the SIREN -> {SIREN}')
             return False
         
         lsRecords = []
@@ -49,4 +49,4 @@ def getDataBODAAC(SIREN):
 
 # - CORE -
 if __name__ == '__main__':
-    df_BODAAC = getDataBODAAC(501400030)
+    df_BODAAC = getDataBODAAC(382629442)
