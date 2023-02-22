@@ -12,3 +12,4 @@ dependencies:
     - xlrd
     - seaborn
     - matplotlib
+    - scikit-learn

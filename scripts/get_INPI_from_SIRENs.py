@@ -90,4 +90,3 @@ def getDataINPI(baseURL="https://registre-national-entreprises.inpi.fr/api", SIR
 # - CORE -
 if __name__ == '__main__':
     df_INIP = getDataINPI(SIRENs=382629442)
-    print(df_INIP)
