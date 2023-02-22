@@ -14,11 +14,11 @@ La première étape est de cloner le sujet dans le répertoire de votre choix. P
 ` https://github.com/dorian-roux/groupama-case-study.git `
 
 
-2. Pour utiliser un environnement conda ayant les libraries requises pour le bon fonctionnement du projet exécuté la commande suivante:  
+2. Pour utiliser un environnement conda ayant les libraries requises pour le bon fonctionnement du projet exécutez la commande suivante:  
 `conda env create -f envs.yaml`
 
 3. Récupération des Données 
-La seconde étape est de récupérer les données étant. Pour ce faire, vous avez 2 possibilités:
+La seconde étape est de récupérer les données. Pour ce faire, vous avez 2 possibilités:
 
     - [Moins Optimale] Télécharger les Données depuis Google Drive à l'addresse suivante https://drive.google.com/drive/folders/1gigYOUIACZ_ee2sFMTyHFTNBtIuYzgLV?usp=sharing et Enregistrer les dans le répertoire "Data".
     
